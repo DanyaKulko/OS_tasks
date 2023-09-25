@@ -4,7 +4,7 @@ project(untitled)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(task1
-        task1/task1.c)
+        task1/main.c)
 
 add_executable(task2
-        task2/task2.c)
+        task2/main.c)
