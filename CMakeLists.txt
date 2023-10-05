@@ -8,3 +8,6 @@ add_executable(task1
 
 add_executable(task2
         task2/main.c)
+
+add_executable(task3ArrayList
+        task3/ArrayList/main.c)
