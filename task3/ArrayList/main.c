@@ -24,7 +24,6 @@ ArrayList *createArrayList() {
 
 void add(ArrayList *list, int item) {
     if (list->size == list->capacity) {
-        // Збільшуємо розмір списку, якщо потрібно
         list->capacity *= 2;
         list->data = (int *)realloc(list->data, list->capacity * sizeof(int));
     }

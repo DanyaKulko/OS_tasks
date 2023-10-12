@@ -42,6 +42,7 @@ int main() {
             if (i == smallestMassIndex) {
                 continue;
             }
+
             int currentMass = points[i].mass;
             if (abs(i - smallestMassIndex) < abs(nearestIndex - smallestMassIndex) ||
                 (abs(i - smallestMassIndex) == abs(nearestIndex - smallestMassIndex) &&
@@ -60,7 +61,7 @@ int main() {
         n--;
     }
 
-    printf("The last remaining point has a mass of %d and an index of %d\n", points[0].mass, points[0].index);
+    printf("The last point has a mass of %d and an index of %d\n", points[0].mass, points[0].index);
 
     free(points);
 
