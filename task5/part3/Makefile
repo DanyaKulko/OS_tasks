@@ -1,4 +1,4 @@
-task5/part2: compile output
+task5/part3: compile output
 
 compile: main.c
 	 gcc main.c -o compiled.o
